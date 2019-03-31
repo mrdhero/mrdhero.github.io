@@ -1,3 +1,8 @@
+---
+layout: post
+title:  "Validate Property trong Vue.js"
+---
+
 Với Vue.js chúng ta có thể dễ dàng thêm các thuộc tính (property) vào component. Nhưng chưa dừng lại ở đó, Vue.js còn cung cấp cho chúng ta nhiều cách để control sâu hơn thuộc tính đó như định kiểu, validate dữ liệu, set giá trị mặc định.
 
 ### Định kiểu dữ liệu
