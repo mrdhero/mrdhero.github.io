@@ -10,48 +10,48 @@
 
 # Free version
 # ---------------------------------------------------------------------------------------
-home:                  Home
-pages:                 Pages
-posts:                 Posts
-about:                 About
-related_posts:         Related Posts
-other_projects:        Other Projects
-comments:              Comments
-jump_to:               Jump to
-navigation:            Navigation
-social:                Social
-links:                 Links
-pagination:            Pagination
-newer:                 Newer
-older:                 Older
-back:                  Back
-permalink:             Permalink
+home:                  Trang chủ
+pages:                 Trang
+posts:                 Bài viết
+about:                 Tác giả
+related_posts:         Bài viết tương tự
+other_projects:        Dự án khác
+comments:              Bình luận
+jump_to:               Đi tới
+navigation:            Điều hướng
+social:                Mạng xã hội
+links:                 Liên kết
+pagination:            Phân trang
+newer:                 Mới hơn
+older:                 Cũ hơn
+back:                  Quay lại
+permalink:             Liên kết trực tiếp
 permalink_icon:        icon-link
-templates:             Templates (for web app)
+templates:             Giao diện
 present:               present
 
-loading:               Loading…
-redirecting:           Redirecting…
+loading:               Đang tải…
+redirecting:           Đang chuyển hướng…
 
 continue_reading:      >
-  Continue reading <!--post_title-->
+  Đọc tiếp <!--post_title-->
 
 cookies_banner:
   text:                >
-    This site uses cookies. [Cookies Policy](/cookies-policy/).
-  okay:                Okay
+    Trang web này sử dụng cookie. [Điều khoản](/cookies-policy/).
+  okay:                Đồng ý
 
 not_found:
-  title:               '404: Page Not Found'
+  title:               '404: Không tìm thấy'
   message:             |
-    Sorry, we've misplaced that URL or it's pointing to something that doesn't exist.
-    <!--home_link--> to try finding it again.
-  home_link:           Head back home
+    Trang bạn tìm kiếm không tồn tại.
+    Quay về trang chủ <!--home_link-->.
+  home_link:           Trở về trang chủ
 
 error:
-  title:               Error
+  title:               Lỗi
   message:             |
-    Sorry, an error occurred while loading <!--link-->.
+    Có lỗi xảy ra trong khi tải <!--link-->.
 
 # Separators
 # ---------------------------------------------------------------------------------------
