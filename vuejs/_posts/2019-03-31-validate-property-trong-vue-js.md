@@ -46,7 +46,7 @@ Thay vào đó, chúng ta cũng có thể set giá trị mặc định cho thu�
 props: {
   age: {
     type: Number,
-    default: () => Math.random()
+    default: 43
   }
 }
 ```
@@ -56,7 +56,7 @@ Thậm chí chúng ta có thể set giá trị mặc định là một function:
 props: {
   age: {
     type: Number,
-    default: 43
+    default: () => Math.random()
   }
 }
 ```
