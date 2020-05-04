@@ -1,3 +1,8 @@
+---
+layout: post
+title:  "Sử dụng local package với Composer"
+---
+
 [Composer](https://getcomposer.org/) - công cụ tuyệt vời không chỉ giúp cho việc tương tác với các dependency trở nên dễ dàng hơn mà còn là cầu nối để developer có thể chia sẻ mã nguồn các package của mình với cộng động.
 
 Không ít người với mục đích học tập, nghiên cứu đã tự xây dựng nên những package của riêng mình. Tuy nhiên trong quá trình phát triển, họ muốn được thử nghiệm, kiểm tra package của mình rồi mới publish lên cộng đồng. Hay đơn giản họ chỉ muốn sử dụng các package đó cho mục đích cá nhân thay vì công khai. Vậy phải làm như thế nào?
