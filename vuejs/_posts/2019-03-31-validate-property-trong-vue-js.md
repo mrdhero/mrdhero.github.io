@@ -6,7 +6,7 @@ title:  "Validate Property trong Vue.js"
 Với Vue.js chúng ta có thể dễ dàng thêm các thuộc tính (property) vào component. Nhưng chưa dừng lại ở đó, Vue.js còn cung cấp cho chúng ta nhiều cách để control sâu hơn thuộc tính đó như định kiểu, validate dữ liệu, set giá trị mặc định.
 
 ### Định kiểu dữ liệu
-Chúng ta có thể dễ dàng thêm kiểu dữ liệu cho thuộc tính bằng cách thêm từ khóa ~~~type~~~ cho nó. Ví dụ:
+Chúng ta có thể dễ dàng thêm kiểu dữ liệu cho thuộc tính bằng cách thêm từ khóa `type` cho nó. Ví dụ:
 ~~~html
 <template>
   <h2>Tuổi của tôi là {{age}}</p>
@@ -31,7 +31,7 @@ Các kiểu dữ liệu được cho phép:
 * `Boolean`: Chỉ chấp nhận dữ liệu đầu vào là Boolean, ví dụ :myProp="true"
 
 ### Giá trị mặc định
-Chúng ta có thể bắt buộc thuộc tính phải được truyền vào bằng cách thêm giá trị ~~~required: true~~~ cho nó. Ví dụ:
+Chúng ta có thể bắt buộc thuộc tính phải được truyền vào bằng cách thêm giá trị `required: true` cho nó. Ví dụ:
 ~~~js
 props: {
   age: {
@@ -62,7 +62,7 @@ props: {
 ~~~
 
 ### Validate dữ liệu
-Chúng ta cũng có thể thực hiện validate dữ liệu ngay trong thuộc tính bằng cách thêm function ~~~validator~~~ cho nó. Function này nhận vào giá trị của thuộc tính và return true nếu hợp lệ, ngược lại sẽ return false. Ví dụ:
+Chúng ta cũng có thể thực hiện validate dữ liệu ngay trong thuộc tính bằng cách thêm function `validator` cho nó. Function này nhận vào giá trị của thuộc tính và return true nếu hợp lệ, ngược lại sẽ return false. Ví dụ:
 ~~~js
 props: {
   age: {
