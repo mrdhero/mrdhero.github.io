@@ -11,7 +11,7 @@ Giải pháp ở đây đó là chúng ta sẽ require package từ một thư m
 
 ## Show me the code
 Cách thức tiến hành rất đơn giản, chúng ta chỉ cần thêm phần định nghĩa **repositories** trong file `composer.json`:
-```json
+~~~json
 "repositories":[
     {
         "type": "path",
@@ -21,18 +21,18 @@ Cách thức tiến hành rất đơn giản, chúng ta chỉ cần thêm phần
         }
     }
 ]
-```
+~~~
 Bằng cách chỉ định `"type": "path"` **Composer** sẽ biết được rằng bạn muốn include một **local repository** có chứa package của bạn với `url` là path của thư mục chứa package của bạn. Các bạn có thể đọc thêm về **Composer Repositories** ở [đây](https://getcomposer.org/doc/05-repositories.md#path)
 
 Việc tiếp theo là require package của bạn:
-```shell
+~~~shell
 composer require YOUR_PACKAGE @dev
-```
+~~~
 Bạn cũng nên chỉ định `"minimum-stability": "dev"` trong file **composer.json** để có thể require package dưới dạng **devDependencies**
 
 **Composer** sẽ quét thư mục mà bạn cung cấp ở phần `url` và nếu phát hiện package thích hợp, nó sẽ được include vào **composer.json**. Đồng thời bên trong thư mục **vendor** cũng sẽ xuất hiện package của bạn. Điều đặc biệt là mỗi khi bạn chỉnh sửa gì đó trong package thì phần code tương ứng sẽ được tự động cập nhật vào thư mục vendor. Có được điều đó là nhờ vào option `"symlink": true` mà chúng ta đã khai báo ở trên.
 
 Giờ thì bạn có thể thoải mái điều chỉnh package của mình rồi. Sau khi đã "ngắm nghía" chán chê và publish package lên cộng đồng, nếu bạn muốn require package một cách trực tiếp từ packagist thì hãy clear cache của composer đi nhé. Để tránh việc composer sẽ require package ở local của bạn thay vì từ packagist:
-```shell
+~~~shell
 composer clearcache
-```
+~~~
