@@ -15,7 +15,7 @@ Cách thức tiến hành rất đơn giản, chúng ta chỉ cần thêm phần
 "repositories":[
     {
         "type": "path",
-        "url": "/path/to/your/local/package"
+        "url": "/path/to/your/local/package",
         "options": {
             "symlink": true
         }
