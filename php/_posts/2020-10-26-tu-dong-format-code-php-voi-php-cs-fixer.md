@@ -1,10 +1,6 @@
-
 ---
-
 layout: post
-
 title: "Tự động format code PHP với PHP-CS-Fixer"
-
 ---
 
 Format code một cách nhất quán là một vấn đề khó khăn, đặc biệt là khi làm việc theo nhóm. Trong bài viết này, chúng ta sẽ cùng nhau tìm hiểu cách cấu hình tự động format code PHP với tiện ích **PHP CS Fixer**.
