@@ -47,9 +47,6 @@ xdebug.client_port = 9000
 Tiếp theo, mở tab **Debug** ở thanh bên trái của VSCode và ấn vào menu Debug rồi chọn **Add Configuration**. Một popup sẽ hiện ra, chọn tiếp PHP và một file *launch.json* sẽ được tạo ra với nội dung như sau:
 ~~~json
 {
-  // Use IntelliSense to learn about possible attributes.
-  // Hover to view descriptions of existing attributes.
-  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
   "version": "0.2.0",
   "configurations": [
     {
